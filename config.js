@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "ARSLAN-MD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0E5dkZXZVAxYUtNQnRJdlJxd1RRamE2ZEs4RXlkRDNLV3dMY1FNV2prWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibVA4S29qOSt1MDJITDBRR1I5d01QeU4xOUE1enZPcGd3MkFNM250K0sxMD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTREVqL0lFcFZZZGRmeE95bGFLb3FIRWlIOG9jK0pNQTFMdlpWL29RU0hjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIyUFVWQ1l3dittTyt4Ly8raWJrUVlWZEtMRXRYVnZDUGtaS0VSNmlkdUhrPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNFV1labnVXc0hFbFFwODM2U1ZNLzhta0pseVhIOUhjZlZFWjhTZVpjMnc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndyNEh1N1d0THhyYUkwakxvcm83Q1FkZEloWmZHSXRueWRoQThXNmVCejg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUxlZWlZc0ZqRVZPWU11eDJwbWV3SkcweVQzbTNlUU1sQ3NlNXJTSEJWYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicGFOd3BVZWpoRjFNellKTUZ5Um5Ed2tFUTlRWjhkRE1lMDhBK1dlc2IyND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjkweEVHbEFjak83MmN5OEdJL1NCQ3ZGUDRaTWRzZlFYaW1zMndRQWZ6UVBSRUoxc0ZUYTlxQ29PcnNoRjZINTI2d2RWUUFWamtkRGhveC9RYmkzVGpRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjUsImFkdlNlY3JldEtleSI6Ii9lZmVjc0cvK0h3VzEydjlPOENGNjBmY1hsZmd5cUx2M0FOSkRyUWdsTXc9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJyZWdpc3RlcmVkIjp0cnVlLCJwYWlyaW5nQ29kZSI6IkRQWjVEVjNaIiwibWUiOnsiaWQiOiI5MjM0MjAzOTU3MzQ6MTBAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiUmFuYSBSYWpwb290IiwibGlkIjoiMTA2NDU1NDk1NjY3NzkxOjEwQGxpZCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSzJYdjlBSEVLbnBoTWNHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoibUpYeXR3Ym9NV096RE9EL3pta1FmM3lSTElRYXFZVE5FOHRpcEg5UXMwaz0iLCJhY2NvdW50U2lnbmF0dXJlIjoieUQ0UnpIVmVCU1hkK1hPdW1tODI5NWc5cDEza2paWTFXb0gxUk9ONUk0ek5pb3l0U281Ti9Sa1lGdEdKVzJ3VUNTeFBLU0hlWmFPZTkzdGhKeTJqQkE9PSIsImRldmljZVNpZ25hdHVyZSI6Ik1nT3lEcVFSd044ano3RTZ2VE1ZRzJ4L1NLdmtNSXo3MmRDbkgyWFl4WFkydFc3WWZjQXQzcjZIdDBCTG80Q09jNERUdnBXTGdPTzZBMEFPZ3l6d2hnPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTIzNDIwMzk1NzM0OjEwQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlppVjhyY0c2REZqc3d6Zy84NXBFSDk4a1N5RUdxbUV6UlBMWXFSL1VMTkoifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBSUlCUT09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc1OTU4OTU0OSwibGFzdFByb3BIYXNoIjoiMlY3N3FVIiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFCNUEifQ==",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY Arslan_MD 🇵🇰*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY SHAHZAIB-MD💫✨🫀*",
 // set the auto reply massage on status reply  
 ANTI_DELETE: process.env.ANTI_DELETE || "false",
 // set true false for anti delete     
@@ -31,7 +31,7 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/lcpy9f.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "Arslan_MD",
+BOT_NAME: process.env.BOT_NAME || "Abdulrehman",
 // add bot namw here for menu
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // true to get auto status react
